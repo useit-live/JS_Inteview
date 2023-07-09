@@ -38,13 +38,13 @@ console.log(findEqualElements([1, 2, 2, 3], [2, 2, 2, 2]));
 // console.log(findEqualElements(a, b));
 
 
-// // fetch() returns Promise<string>
+//  !fetch() returns Promise<string>
 //
 // function App() {
 //     return <DataLoader fetch={fetch} />;
 // }
 //
-// // Develop DataLoader component
+//  !Develop DataLoader component
 //
 //
 // const DataLoader = ({fetch}) => {
@@ -158,5 +158,3 @@ function parallelLimit(urls, limit, callback) {
         tmpLimit --;
     }
 }
-
-console.log('again');
